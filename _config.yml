@@ -1,7 +1,7 @@
 # Example _config.yml
 
 # Site settings
-title: CV On Github
-description: This Is My CV.
-theme: jekyll-theme-minimal
+title: CV
+description: Iqbal
+theme: jekyll-theme-chirpy
 markdown: GFM
