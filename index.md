@@ -1,6 +1,6 @@
 > # Iqbal Rizky Ramdhan
 | [ntaloventi@gmail.com](mailto:ntaloventi@gmail.com) | [+62 878 4664 2767](tel:+6287846642767) | https://github.com/ntaloventi |
-|-| - |-|
+| - | - | - |
 | Email | Phone | Github|
 
 
