@@ -7,9 +7,13 @@ layout: default
 <article class="px-1">
   {% if page.layout == 'page' or page.collection == 'tabs' %}
     {% assign tab_key = page.title | downcase %}
-    {% assign title = site.data.locales[lang].tabs[tab_key] | default: page.title %}
+    {% if tab_key == 'about' %}
+      {% assign title = 'Iqbal Rizky Ramdhan' %}
+    {% else %}
+      {% assign title = site.data.locales[lang].tabs[tab_key] | default: page.title %}
+    {% endif %}
     <h1 class="dynamic-title">
-      {{ title }}
+      {{ title }}  
     </h1>
     <div class="content">
       {{ content }}
