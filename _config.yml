@@ -1,6 +1,150 @@
-# Example _config.yml
+# The Site Configuration
 
-# Site settings
-title: CV
-description: Iqbal
-markdown: GFM
+theme: jekyll-theme-chirpy
+lang: en
+timezone: Asia/Jakarta
+
+title: Iqbal Rizky # the main title
+tagline: Some Story Of My Works # it will display as the sub-title
+description: >- # used by seo meta and the atom feed
+  Iqbal Rizky Website.
+
+url: "https://ntaloventi.github.io"
+
+github:
+  username: ntaloventi # change to your github username
+
+social:
+  name: Iqbal Rizky
+  email: ntaloventi@gmail.com # change to your email address
+  links:
+    - https://github.com/ntaloventi
+    - https://stackoverflow.com/users/4948527/iqbal-rizky
+
+google_site_verification: # fill in to your verification string
+
+google_analytics:
+  id: # fill in your Google Analytics ID
+
+theme_mode: [light]
+
+img_cdn: "https://lh6.googleusercontent.com"
+avatar: "/-l5oy9kjWzuE/AAAAAAAAAAI/AAAAAAAAANw/a7ceeWp0J8I/photo.jpg"
+
+# boolean type, the global switch for TOC in posts.
+toc: false
+
+comments:
+  active: # The global switch for posts comments, e.g., 'disqus'.  Keep it empty means disable
+  # The active options are as follows:
+  disqus:
+    shortname: # fill with the Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
+  # utterances settings › https://utteranc.es/
+  utterances:
+    repo: # <gh-username>/<repo>
+    issue_term: # < url | pathname | title | ...>
+  # Giscus options › https://giscus.app
+  giscus:
+    repo: # <gh-username>/<repo>
+    repo_id:
+    category:
+    category_id:
+    mapping: # optional, default to 'pathname'
+    input_position: # optional, default to 'bottom'
+    lang: # optional, default to the value of `site.lang`
+    reactions_enabled: # optional, default to the value of `1`
+
+# Self-hosted static assets, optional › https://github.com/cotes2020/chirpy-static-assets
+assets:
+  self_host:
+    enabled: # boolean, keep empty means false
+    # specify the Jekyll environment, empty means both
+    # only works if `assets.self_host.enabled` is 'true'
+    env: # [development|production]
+
+pwa:
+  enabled: true # the option for PWA feature
+
+paginate: 10
+
+# The base URL of your site
+baseurl: ""
+
+# ------------ The following options are not recommended to be modified ------------------
+
+kramdown:
+  syntax_highlighter: rouge
+  syntax_highlighter_opts: # Rouge Options › https://github.com/jneen/rouge#full-options
+    css_class: highlight
+    # default_lang: console
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+      start_line: 1
+
+collections:
+  tabs:
+    output: true
+    sort_by: order
+
+defaults:
+  - scope:
+      path: "" # An empty string here means all files in the project
+      type: posts
+    values:
+      layout: post
+      comments: true # Enable comments in posts.
+      toc: false # Display TOC column in posts.
+      # DO NOT modify the following parameter unless you are confident enough
+      # to update the code of all other post links in this project.
+      permalink: /posts/:title/
+  - scope:
+      path: _drafts
+    values:
+      comments: false
+  - scope:
+      path: ""
+      type: tabs # see `site.collections`
+    values:
+      layout: page
+      permalink: /:title/
+  - scope:
+      path: assets/img/favicons
+    values:
+      swcache: true
+  - scope:
+      path: assets/js/dist
+    values:
+      swcache: true
+
+sass:
+  style: compressed
+
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  profile: false
+  blanklines: false
+  ignore:
+    envs: [development]
+
+exclude:
+  - "*.gem"
+  - "*.gemspec"
+  - docs
+  - tools
+  - README.md
+  - LICENSE
+  - rollup.config.js
+  - package*.json
+
+jekyll-archives:
+  enabled: [categories, tags]
+  layouts:
+    category: category
+    tag: tag
+  permalinks:
+    tag: /tags/:name/
+    category: /categories/:name/
