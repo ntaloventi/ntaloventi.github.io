@@ -39,18 +39,20 @@ order: 4
 
 | App Name | Type | Link | Task | Short Desc |
 |-|-|-|-|-|
+| Bank Host Simulator | Backend Javalin JPOS | | Develop & Maintain | Bank Host Engine ISO 8583 |
+| Midware Mini Atm Host | Backend Javalin | | Develop & Maintain | Api And Host to Host Engine |
 | Carla | AndroidApp | ReaderStore | Develop & Maintain | Usb Serial App to App |
 | Caki | AndroidApp | ReaderStore | Develop & Maintain | Key Injection For Card Present Payment |
 | Key Management | Backend SpringBoot | | Develop & Maintain | Key Injection API With HSM |
 | Owners | AndroidApp | | Develop & Maintain | Dashboard & Report Merchant Store |
 | Cashlez | AndroidApp | ReaderStore & [PlayStore](https://play.google.com/store/apps/details?id=com.cashlez.android.garuda) | Maintain & Upgrade Feature | Payment Gateway & POS |
-| Yeloo | AndroidApp | [PlayStore](https://play.google.com/store/apps/details?id=com.yeloo.user) | Maintain & Upgrade Feature | Taxi Motorcyle |
-| Yeloo Store | AndroidApp | [PlayStore](https://play.google.com/store/apps/details?id=com.yeloo.store) | Maintain & Upgrade Feature | Merchant Store |
-| Obbi | AndroidApp | [PlayStore](https://play.google.com/store/apps/details?id=id.obbi.obbicust) | Develop & Maintain | PPOB & Shopping |
-| Obbi Pos | AndroidApp | [PlayStore](https://play.google.com/store/apps/details?id=id.obbi.obbipos) | Develop & Maintain | POS Offline Store |
+| Yeloo | AndroidApp | [ApkPure](https://apkpure.com/yeloo/com.yeloo.user) | Maintain & Upgrade Feature | Taxi Motorcyle |
+| Yeloo Store | AndroidApp | [ApkPure](https://apkpure.com/yeloo-store/com.yeloo.store) | Maintain & Upgrade Feature | Merchant Store |
+| Obbi | AndroidApp | [ApkPure](https://apkpure.com/obbi/id.obbi.obbicust) | Develop & Maintain | PPOB & Shopping |
+| Obbi Pos | AndroidApp | [ApkPure](https://apkpure.com/obbi-pos/id.obbi.obbipos) | Develop & Maintain | POS Offline Store |
 | TukangBersih | AndroidApp | [PlayStore](https://play.google.com/store/apps/details?id=com.tukangbersih.tbicust) | Develop & Maintain | Cleaning Solution |
 | TukangBersih Partner | AndroidApp | [PlayStore](https://play.google.com/store/apps/details?id=com.tukangbersih.tbipartner) | Develop & Maintain | Housekeeper Partner |
-| GoWes | AndroidApp | [PlayStore](https://play.google.com/store/apps/details?id=com.jimatt.gowes) | Develop & Maintain | Bike Rental |
+| GoWes | AndroidApp | [ApkPure](https://apkpure.com/gowes/com.jimatt.gowes) | Develop & Maintain | Bike Rental |
 | T-Bike | AndroidApp | [ApkPure](https://apkpure.com/t-bike/id.telkomsel.tbike) | Develop & Maintain | Motorcycle Security With GPS Tracking |
 
 ## Education
