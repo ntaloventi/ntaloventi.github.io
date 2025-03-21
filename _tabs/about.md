@@ -15,7 +15,7 @@ order: 4
 | Apr 2022 | Current  | Cashlez Worldwide Indonesia | Android Application Developer |
 | Dec 2020 | May 2021 | Yeloo Indonesia | Senior Mobile Application Developer |
 | Mar 2019 | Dec 2020 | Obbi Group Internasional | Senior Mobile Application Developer |
-| Sep 2017 | Jan 2020 | Tukang Bersih Indonesia | Android Application Developer |
+| Sep 2017 | Jan 2019 | Tukang Bersih Indonesia | Android Application Developer |
 | Jan 2016 | Sep 2019 | Surya Teknologi Perkasa | Android Application Developer |
 
 ### Skills
