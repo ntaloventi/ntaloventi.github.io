@@ -10,6 +10,7 @@
   },
   "devDependencies": {
     "gh-pages": "^6.3.0",
+    "nodemon": "^3.1.14",
     "vitepress": "1.0.0-alpha.28",
     "vue": "3.2.44"
   },
