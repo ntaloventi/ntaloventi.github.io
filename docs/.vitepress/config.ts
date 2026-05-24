@@ -1,7 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-    title: "Iqbal Rizky",
+    title: "Iqbal Rizky Ramdhan",
     description: "Android & Backend Developer",
 
     themeConfig: {
@@ -27,7 +27,9 @@ export default defineConfig({
         ],
 
         socialLinks: [
-            { icon: "github", link: "https://github.com/ntaloventi" }
+            { icon: "github", link: "https://github.com/ntaloventi" },
+            { icon: "youtube", link: "https://ntaloventi.my.id" },
+            { icon: "linkedin", link: "https://www.linkedin.com/in/iqbal-rizky-9619a3143" }
         ]
     }
 })
