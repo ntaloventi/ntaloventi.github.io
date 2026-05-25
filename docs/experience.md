@@ -53,7 +53,7 @@ _Sep 2017 – Jan 2019_
 
 ## Surya Teknologi Perkasa
 **Android Developer**  
-_Jan 2016 – Sep 2019_
+_Jan 2016 – Sep 2017_
 
 - Develop, enhance & maintain android android apps 
 [GoWes](https://apkpure.com/gowes/com.jimatt.gowes),
