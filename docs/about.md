@@ -1,4 +1,4 @@
-# 👨‍💻 Your Name
+# 👨‍💻 Iqbal Rizky Ramdhan
 
 📱 +62 878 4664 2767  
 📧 ntaloventi@gmail.com

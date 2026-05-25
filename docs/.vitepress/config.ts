@@ -9,7 +9,6 @@ export default defineConfig({
             { text: "Home", link: "/" },
             { text: "Experience", link: "/experience" },
             { text: "Skills", link: "/skills" },
-            { text: "Projects", link: "/projects" },
             { text: "Education", link: "/education" }
         ],
 
@@ -20,7 +19,6 @@ export default defineConfig({
                     { text: "Overview", link: "/" },
                     { text: "Experience", link: "/experience" },
                     { text: "Skills", link: "/skills" },
-                    { text: "Projects", link: "/projects" },
                     { text: "Education", link: "/education" }
                 ]
             }

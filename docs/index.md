@@ -1,7 +1,9 @@
 # 👨‍💻 Iqbal Rizky Ramdhan
 
 📱 +62 878 4664 2767  
-📧 ntaloventi@gmail.com
+📧 ntaloventi@gmail.com  
+📧 ntaloventi.github.io  
+📧 ntaloventi.my.id
 
 ---
 
@@ -13,9 +15,9 @@ Experienced **Android & Backend Developer** with strong expertise in payment sys
 
 ## 🚀 Highlights
 
-- 💳 Payment systems (ISO 8583, HSM, POS)
-- 📱 Android expert (Java, MVVM)
-- ⚙️ Backend (Laravel, Express)
+- 💳 Payment systems (ISO 8583, HSM, PCIDSS)
+- 📱 Android expert (Java, MVP)
+- ⚙️ Backend (Java, Php, JavaScript)
 - 🐳 DevOps (Docker, Proxmox, Linux)
 
 ---
@@ -24,5 +26,4 @@ Experienced **Android & Backend Developer** with strong expertise in payment sys
 
 - [Experience](./experience.md)
 - [Skills](./skills.md)
-- [Projects](./projects.md)
 - [Education](./education.md)
