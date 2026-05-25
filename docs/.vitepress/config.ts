@@ -9,7 +9,8 @@ export default defineConfig({
             { text: "Home", link: "/" },
             { text: "Experience", link: "/experience" },
             { text: "Skills", link: "/skills" },
-            { text: "Education", link: "/education" }
+            { text: "Education", link: "/education" },
+            { text: "CV", link: "/cv" }
         ],
 
         sidebar: [
@@ -19,7 +20,8 @@ export default defineConfig({
                     { text: "Overview", link: "/" },
                     { text: "Experience", link: "/experience" },
                     { text: "Skills", link: "/skills" },
-                    { text: "Education", link: "/education" }
+                    { text: "Education", link: "/education" },
+                    { text: "CV", link: "/cv" }
                 ]
             }
         ],
